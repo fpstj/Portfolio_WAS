@@ -1,0 +1,95 @@
+@import "_variables";
+@import "stylesheet_main";
+
+.body, html {
+    height: 100%;
+    position: relative;
+}
+
+.header-wrapper {
+    min-height: 100vh;
+    background: url(../img/andras-vas-Bd7gNnWJBkU-unsplash.jpg) var(--black);
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(64, 66, 88, 0.2);
+
+    .navbar-nav {
+        margin: 0;
+        padding: 0;
+        
+        a {
+            display: inline-block;
+            padding: 30px;
+            font-weight: bold;
+            color: var(--white);
+            font-size: 1.2em;
+        }
+
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        color: var(--white) !important;
+        padding-left: 2em !important;
+        font-size: 2em;
+
+        span {
+            color: #F0FF42 !important;
+        }
+    }
+}
+
+
+/* ======= something different ======= */
+
+// .fixed-top {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     transition: 0.6s;
+//     padding: 10px 100px !important;
+//     background-color: var(--primary-color);
+//     z-index: 999;
+
+//     .navbar-brand {
+//         position: relative;
+//         font-weight: 700;
+//         color: var(--secondary-color);
+//         text-decoration: none;
+//         font-size: 2em;
+//         letter-spacing: 1px;
+//         transition: 0.6s;
+//     }
+
+//     .navbar-nav {
+//         position: relative;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         font-family: 'Roboto', sans-serif;
+//         font-weight: 700;
+//         color: var(--secondary-color);
+
+//         .nav-item {
+//             position: relative;
+//             list-style: none;
+
+//             .nav-link {
+//                 position: relative;
+//                 margin: 0 15px;
+//                 text-decoration: none;
+//                 color: var(--secondary-color);
+//                 letter-spacing: 1px;
+//                 transition: 0.6s;
+//             }
+//         }
+//     }
+// }
