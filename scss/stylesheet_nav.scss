@@ -7,8 +7,9 @@
 }
 
 .header-wrapper {
+    max-width: 100%;
     min-height: 100vh;
-    background: url(../img/andras-vas-Bd7gNnWJBkU-unsplash.jpg) var(--black);
+    background: url(../img/andras-vas-Bd7gNnWJBkU-unsplash.jpg);
     background-size: cover;
 }
 
@@ -42,54 +43,3 @@
         }
     }
 }
-
-
-/* ======= something different ======= */
-
-// .fixed-top {
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     transition: 0.6s;
-//     padding: 10px 100px !important;
-//     background-color: var(--primary-color);
-//     z-index: 999;
-
-//     .navbar-brand {
-//         position: relative;
-//         font-weight: 700;
-//         color: var(--secondary-color);
-//         text-decoration: none;
-//         font-size: 2em;
-//         letter-spacing: 1px;
-//         transition: 0.6s;
-//     }
-
-//     .navbar-nav {
-//         position: relative;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         font-family: 'Roboto', sans-serif;
-//         font-weight: 700;
-//         color: var(--secondary-color);
-
-//         .nav-item {
-//             position: relative;
-//             list-style: none;
-
-//             .nav-link {
-//                 position: relative;
-//                 margin: 0 15px;
-//                 text-decoration: none;
-//                 color: var(--secondary-color);
-//                 letter-spacing: 1px;
-//                 transition: 0.6s;
-//             }
-//         }
-//     }
-// }
