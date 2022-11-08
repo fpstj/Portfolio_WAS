@@ -1,0 +1,35 @@
+@import "_variables";
+@import "stylesheet_main";
+
+#footer {
+    background-color: var(--fourth-color);
+    padding: 2em 0;
+    position: relative;
+
+    .row {
+        width: 100%;
+    }
+    
+    .col-lg-4 {
+        align-items: center;
+        text-align: left;
+        color: var(--second-color);
+
+        a {
+            text-decoration: none;
+            color: var(--second-color);
+        }
+
+        ul {
+            list-style: none;
+            align-items: center;
+        }
+    }
+
+    #copyright {
+        text-align: center;
+    }
+}
+
+// Fix positioning of row items and add hover class
+// Change colors and style accordingly
