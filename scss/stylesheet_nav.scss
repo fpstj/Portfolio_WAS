@@ -6,18 +6,13 @@
     position: relative;
 }
 
-.header-wrapper {
-    max-width: 100%;
-    min-height: 100vh;
-    background: url(../img/andras-vas-Bd7gNnWJBkU-unsplash.jpg);
-    background-size: cover;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(64, 66, 88, 0.2);
+    background-color: rgba(0, 0, 0, 0.25);
     text-align: center;
+    position: fixed;
+    width: 100%;
 
     .navbar-nav {
         margin: 0;
@@ -44,3 +39,18 @@
         }
     }
 }
+
+@media (min-width: 1024px) {
+    .navbar {
+        a {
+            font-size: 1em;
+        }
+    }
+
+    #logo {
+        font-size: .5em;
+    }
+
+}
+
+@media (min-width: 768px) {}
